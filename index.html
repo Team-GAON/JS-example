@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>웹 스터디</title>
+  <title>0620</title>
 </head>
+
 <body>
-  <h1>환영합니다!</h1>
+  <input type="text" id="taewoo" onkeydown="handleTyping()"> <!-- onchange="": 상태가 변했을 때 -->
+  <script>
+    const handleTyping = () => { 
+      const taewoo = document.getElementById('taewoo'); 
+      console.log(taewoo.value) 
+    }
+  </script>
 </body>
+
 </html>
