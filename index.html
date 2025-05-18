@@ -8,11 +8,11 @@
 </head>
 
 <body>
-  <input type="text" id="input" onkeydown="handleTyping()"> <!-- onchange="": 상태가 변했을 때 -->
+  <input type="text" id="typing" onkeydown="handleTyping()"> <!-- onchange="": 상태가 변했을 때 -->
   <script>
     const handleTyping = () => { 
-      const input = document.getElementById('taewoo'); 
-      console.log(input.value) 
+      const typing = document.getElementById('typing'); 
+      console.log(typing.value) 
     }
   </script>
 </body>
